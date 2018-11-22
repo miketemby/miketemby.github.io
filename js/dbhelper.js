@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 88 // Change this to your server port
-    const host = 'github.com/miketemby/miketemby.github.io/blob/master' // Change this to your host name
+    const host = 'miketemby.github.io' // Change this to your host name
     return `https://${host}/data/restaurants.json`;
   }
 
