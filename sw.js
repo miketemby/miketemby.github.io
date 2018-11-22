@@ -18,7 +18,7 @@ self.addEventListener('install', function(evt) {
         '/js/restaurant_info.js',
         'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
         'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
-        'https://api.tiles.mapbox.com/
+        'https://api.tiles.mapbox.com/'
     ];
 
     evt.waitUntil(
