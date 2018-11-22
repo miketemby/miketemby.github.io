@@ -35,7 +35,7 @@ self.addEventListener('install', function(evt) {
 self.addEventListener('fetch', function(evt) {
     
     evt.respondWith(
-        caches.match(evt.request).then(function(response) {
+        caches.match(evt.request,{'ignoreSearch': true}).then(function(response) {
             if(response) return response;
             return fetch(evt.request);
         })
