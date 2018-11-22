@@ -10,7 +10,12 @@ self.addEventListener('install', function(evt) {
         '/img/7.jpg',
         '/img/8.jpg',
         '/img/9.jpg',
-        '/img/10.jpg'
+        '/img/10.jpg',
+        '/css/styles.css',
+        '/data/restaurants.json',
+        '/js/dbhelper.js',
+        '/js/main.js',
+        '/js/restaurant_info.js'
     ];
 
     evt.waitUntil(
