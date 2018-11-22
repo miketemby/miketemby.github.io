@@ -24,7 +24,7 @@ self.addEventListener('install', function(evt) {
 
     evt.waitUntil(
        
-        caches.open('urls').then(function(cache) {
+        caches.open('assets').then(function(cache) {
             cache.addAll(urlsToCache);
         })
         
